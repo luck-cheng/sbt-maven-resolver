@@ -4,7 +4,7 @@ import sbt.Keys._
 object Dependencies {
   resolvers += "bintray-sbt-maven-releases" at "https://dl.bintray.com/sbt/maven-releases/"
 
-  val libraryManagementVersion = "1.3.2"
+  val libraryManagementVersion = "1.8.0"
 
   lazy val depsTest: Seq[ModuleID] = Seq(
     "com.eed3si9n.verify" %% "verify" % "0.2.0" % Test,
